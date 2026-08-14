@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corretor Vintage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="paper-container">
+        <header>
+            <h1>— Redator Vintage —</h1>
+            <p class="subtitle">Revisão & Correção de Textos</p>
+        </header>
+
+        <main>
+            <textarea id="text-input" placeholder="Escreva ou cole seu texto aqui..."></textarea>
+
+            <div class="actions">
+                <button id="btn-correct">Analisar Texto</button>
+            </div>
+
+            <section id="results" class="results-section hidden">
+                <h2>Sugestões de Correção</h2>
+                <ul id="suggestions-list"></ul>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

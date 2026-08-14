@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2b2625;
+    font-family: 'Courier Prime', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Efeito de folha de papel antiga */
+.paper-container {
+    background-color: #f4ebd9;
+    background-image: radial-gradient(#e2d3b7 10%, transparent 11%);
+    background-size: 10px 10px;
+    width: 100%;
+    max-width: 650px;
+    padding: 40px;
+    border-radius: 2px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5), inset 0 0 60px rgba(160, 120, 80, 0.2);
+    border: 1px solid #d4c3a3;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+    border-bottom: 2px double #5c4a3e;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+    color: #3d2f28;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #6e594d;
+    font-size: 0.9rem;
+}
+
+textarea {
+    width: 100%;
+    height: 180px;
+    background: transparent;
+    border: 1px dashed #8c7362;
+    padding: 15px;
+    font-family: 'Courier Prime', monospace;
+    font-size: 1rem;
+    color: #2b221e;
+    line-height: 1.5;
+    resize: vertical;
+    outline: none;
+}
+
+textarea::placeholder {
+    color: #9e8979;
+}
+
+.actions {
+    margin-top: 15px;
+    text-align: right;
+}
+
+button {
+    font-family: 'Special Elite', cursive;
+    background-color: #5c4a3e;
+    color: #f4ebd9;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px #2b221e;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #3d2f28;
+    transform: translateY(-2px);
+}
+
+.results-section {
+    margin-top: 30px;
+    border-top: 1px solid #a89382;
+    padding-top: 15px;
+}
+
+.results-section.hidden {
+    display: none;
+}
+
+h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2rem;
+    color: #3d2f28;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-left: 3px solid #8c3b2b;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    color: #2b221e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fix-btn {
+    background-color: #8c3b2b;
+    font-size: 0.8rem;
+    padding: 4px 8px;
+}
+
+.fix-btn:hover {
+    background-color: #63261a;
+}
+
+
